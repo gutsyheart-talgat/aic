@@ -1,6 +1,7 @@
 import React from "react";
 import style from './layout.module.css'
 import { Link } from "react-router-dom";
+import Header from "../Header/header";
 function Layout({children}){
     return(
         <div className={style.back}>
@@ -12,6 +13,7 @@ function Layout({children}){
                         <Link to='Services' className={style.link}>Services</Link>
                         <Link to='Contacts' className={style.link}>Contacts</Link>
                     </nav>
+                    <Header/>
                     <div>{children}</div>
                 </div>
             </div>

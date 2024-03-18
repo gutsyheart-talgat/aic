@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    grid-gap: 14px;
+}
+.right{
+    width: 0;
+	height: 0;
+	border-top: 1px solid transparent;
+	border-left: 271px solid #FFFFFF;
+	border-bottom: 1px solid transparent;
+}
+.left{
+    width: 0;
+	height: 0;
+	border-top: 1px solid transparent;
+	border-right: 271px solid #FFFFFF;
+	border-bottom: 1px solid transparent;
+}
+.topH2{
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 450;
+    font-size: 56px;
+    line-height: 96.79px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+.bottomH2{
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 189.59px;
+    text-align: center;
+    color: #CFA550;
+    margin: 0;
+}

@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='' element={<About/>}/>
+        <Route path='/' element={<About/>}/>
         <Route path='Kyrgyzstan'/>
         <Route path='Contacts'/>
         <Route path='Services'/>

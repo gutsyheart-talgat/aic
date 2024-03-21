@@ -1,8 +1,10 @@
 import React from "react";
-import Layout from "../Layout/layout";
+import style from './service.module.css'
 
 export default function Service(){
     return(
-        <Layout></Layout>
+        <div className={style.p}>
+            asdfasdfasdf
+        </div>
     )
 }

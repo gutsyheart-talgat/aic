@@ -1,6 +1,8 @@
 import React from "react";
 import style from './contacts.module.css'
+import { useTranslation } from "react-i18next";
 export default function Contacts(){
+    const {t,i18n}=useTranslation()
     return(
         <div className={style.contacts}>
             <div className={style.header}>
@@ -11,7 +13,7 @@ export default function Contacts(){
                 <p className={style.headcont}>CONTACTS</p>
             </div>
             <div className={style.main}>
-                <p className={style.p}>ADDRESS:    Business Center Russia – Cab 1802 Razakov Street 19 720040 BISHKEK – KYRGYZ REPUBLIC</p>
+                <p className={style.p}>{t("text")}</p>
             </div>
         </div>
     )

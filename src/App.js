@@ -5,6 +5,8 @@ import Kyrgyzstan from './components/Kyrgyzstan/kyrgyzstan';
 import Contacts from './components/Contacts/contacts'
 import Services from './components/Services/service'
 import Layout from './components/Layout/layout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <Routes>

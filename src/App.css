@@ -1,10 +1,12 @@
+
+
 .App {
     
 }
 a{
-    color: #A7A5A6;
+    color: #A7A5A6 !important;
 }
 .active{
-    color: #CFA550;
+    color: #CFA550 !important;
     cursor: default;
 }

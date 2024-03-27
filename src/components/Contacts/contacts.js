@@ -2,7 +2,7 @@ import React from "react";
 import style from './contacts.module.css'
 import { useTranslation } from "react-i18next";
 export default function Contacts(){
-    const {t,i18n}=useTranslation()
+    const {t}=useTranslation()
     return(
         <div className={style.contacts}>
             <div className={style.header}>

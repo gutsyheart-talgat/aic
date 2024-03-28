@@ -3,5 +3,9 @@
     "contact":"Contacts",
     "about":"About AIC",
     "Kyrgyzstan":"Kyrgyz Republic",
-    "service":"Services"
+    "service":"Services",
+    "service1":"Service 1",
+    "service2":"Service 2",
+    "service3":"Service 3",
+    "service4":"Service 4"
 }

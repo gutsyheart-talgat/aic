@@ -10,3 +10,22 @@ a{
     color: #CFA550 !important;
     cursor: default;
 }
+.dropdown:active{
+    color: #CFA550 !important;
+    cursor: default;
+}
+.dropdown-menu{
+    background: url(./img/Background.png) !important;
+}
+.dropdown-item:hover{
+    color: #CFA550 !important;
+    background: #A7A5A6 !important;
+}
+.dropdown-item:active{
+    color: #CFA550 !important;
+    cursor: default;
+}
+.dropdown-toggle:active{
+    color: #CFA550 !important;
+    cursor: default;
+}

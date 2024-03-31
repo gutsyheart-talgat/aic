@@ -1,11 +1,16 @@
 import React from 'react';
-
-const service1 = () => {
+import style from './service1.module.css'
+import { useTranslation} from 'react-i18next'
+const Service1 = () => {
+    const {t}=useTranslation()
     return (
-        <div>
-            adfasdfasdfasdfasdfasdfsadfdsaf
+        <div className={style.div}> 
+            <h3>{t("service1")}</h3>
+            <p>
+                {t("service1text")}
+            </p>
         </div>
     );
 };
 
-export default service1;
+export default Service1;

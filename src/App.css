@@ -10,6 +10,12 @@ a{
     color: #CFA550 !important;
     cursor: default;
 }
+.nav{
+    padding: 0 !important;
+}
+.dropdown{
+    padding: 0 !important;
+}
 .dropdown:active{
     color: #CFA550 !important;
     cursor: default;
@@ -24,6 +30,9 @@ a{
 .dropdown-item:active{
     color: #CFA550 !important;
     cursor: default;
+}
+.dropdown-toggle{
+    padding: 0 !important;
 }
 .dropdown-toggle:active{
     color: #CFA550 !important;

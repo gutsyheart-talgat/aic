@@ -18,11 +18,11 @@ function App() {
 
         <Route path='Kyrgyzstan' element={<Kyrgyzstan/>}/>
         <Route path='Contacts' element={<Contacts/>}/>
-        <Route path='Services/*' element={<Services/>}/>
-        <Route path='Service-1' element={<Service1/>}/>
-        <Route path='Service-2' element={<Service1/>}/>
-        <Route path='Service-3' element={<Service1/>}/>
-        <Route path='Service-4' element={<Service1/>}/>
+        <Route path='Services' element={<Services/>}/>
+        <Route path='Services/Service-1' element={<Service1/>}/>
+        <Route path='Services/Service-2' element={<Service1/>}/>
+        <Route path='Services/Service-3' element={<Service1/>}/>
+        <Route path='Services/Service-4' element={<Service1/>}/>
       </Route>
     </Routes>
   );

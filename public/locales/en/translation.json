@@ -1,13 +1,17 @@
 {
-    "text":"ADDRESS: Business Center Russia – Cab 1802 Razakov Street 19 720040 BISHKEK – KYRGYZ REPUBLIC",
+    "adress":"ADDRESS: Business Center Russia – Cab 1802 Razakov Street 19 720040 BISHKEK – KYRGYZ REPUBLIC",
+    "gmail":"MAIL: dzhailikeevtalgat@gmail.com",
     "contact":"Contacts",
     "about":"About AIC",
     "Kyrgyzstan":"Kyrgyz Republic",
     "service":"Services",
+    "our":"OUR",
     "service1":"Service 1",
     "service2":"Service 2",
     "service3":"Service 3",
     "service4":"Service 4",
-    "service1text":"Our company prides itself on providing a variety of services that cover all areas of your life. We are committed to providing high quality service and personalized attention to each client. Whether you need tuition assistance, financial counseling, health care services or help with household issues, we are here to help. Our professionals have a wealth of experience and professional skills to meet your needs. We are committed to continuous improvement and development to provide you with only the best services to meet today's needs and client expectations. Your satisfaction is our top priority."
-
+    "service1text":"Our company prides itself on providing a variety of services that cover all areas of your life. We are committed to providing high quality service and personalized attention to each client. Whether you need tuition assistance, financial counseling, health care services or help with household issues, we are here to help. Our professionals have a wealth of experience and professional skills to meet your needs. We are committed to continuous improvement and development to provide you with only the best services to meet today's needs and client expectations. Your satisfaction is our top priority.",
+    "service2text":"Our company prides itself on providing a variety of services that cover all areas of your life. We are committed to providing high quality service and personalized attention to each client. Whether you need tuition assistance, financial counseling, health care services or help with household issues, we are here to help. Our professionals have a wealth of experience and professional skills to meet your needs. We are committed to continuous improvement and development to provide you with only the best services to meet today's needs and client expectations. Your satisfaction is our top priority.",
+    "service3text":"Our company prides itself on providing a variety of services that cover all areas of your life. We are committed to providing high quality service and personalized attention to each client. Whether you need tuition assistance, financial counseling, health care services or help with household issues, we are here to help. Our professionals have a wealth of experience and professional skills to meet your needs. We are committed to continuous improvement and development to provide you with only the best services to meet today's needs and client expectations. Your satisfaction is our top priority.",
+    "service4text":"Our company prides itself on providing a variety of services that cover all areas of your life. We are committed to providing high quality service and personalized attention to each client. Whether you need tuition assistance, financial counseling, health care services or help with household issues, we are here to help. Our professionals have a wealth of experience and professional skills to meet your needs. We are committed to continuous improvement and development to provide you with only the best services to meet today's needs and client expectations. Your satisfaction is our top priority."
 }

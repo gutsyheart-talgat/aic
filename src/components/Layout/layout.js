@@ -20,21 +20,15 @@ function Layout(){
                         <NavLink className={style.link} to="Kyrgyzstan">{t("Kyrgyzstan")}</NavLink>
                         <Nav>
                             <NavDropdown className={`${style.link} ${style.drop}`} title={t("service")} id="basic-nav-dropdown">
-                                <NavDropdown.Item className={style.dropLink} href="/Services/Service-1">{t("service1")}</NavDropdown.Item>
-                                <NavLink to="/Services/Service-1"> {t("service1")}</NavLink>
-                                <NavDropdown.Item className={style.dropLink} href="/Services/Service-2">
-                                    {t("service2")}
-                                </NavDropdown.Item>
-                                <NavDropdown.Item className={style.dropLink} href="/Services/Service-3">{t("service3")}</NavDropdown.Item>
-                                <NavDropdown.Item className={style.dropLink} href="/Services/Service-4">
-                                    {t("service4")}
-                                </NavDropdown.Item>
+                                <div className={style.divLink}><Link className={style.serLink} to="/Services/Service-1"> {t("service1")}</Link></div>
+                                <div className={style.divLink}><Link className={style.serLink} to="/Services/Service-2"> {t("service2")}</Link></div> 
+                                <div className={style.divLink}><Link className={style.serLink} to="/Services/Service-3"> {t("service3")}</Link></div>
+                                <div className={style.divLink}><Link className={style.serLink} to="/Services/Service-4"> {t("service4")}</Link></div>
                             </NavDropdown>
                         </Nav>
                         <NavLink className={style.link} to="Contacts">{t("contact")}</NavLink>
                     </nav>
                     <div className={style.texture}></div>
-                    <Header/>
                     <div className={style.translate}>
                         <button className={style.btns} onClick={()=> changeLanguage('ru')}>RU</button>
                         <div className={style.line}/>

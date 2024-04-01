@@ -1,5 +1,5 @@
-.contacts{
-    padding-left: 130px;
+.div{
+    margin-left: 130px;
 }
 .header{
     padding-top: 100px;
@@ -23,7 +23,7 @@
     width: 0;
 	height: 0;
 	border-top: 1px solid transparent;
-	border-left: 290px solid #FFFFFF;
+	border-left: 250px solid #FFFFFF;
 	border-bottom: 1px solid transparent;
 }
 .headcont{
@@ -34,21 +34,19 @@
     color: #CFA550;
     margin: 0;
 }
-.main{
-    padding-top: 100px;
+.h3{
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50.6px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-top: 120px;
 }
 .p{
     font-family: "Instrument Sans", sans-serif;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 30px;
     color: #ffffff;
-    font-weight: 450;
-    font-size: 24px;
-    line-height: 30px;
-}
-.a{
-    font-family: "Instrument Sans", sans-serif;
-    color: #ffffff !important;
-    font-weight: 450;
-    font-size: 24px;
-    line-height: 30px;
-    text-decoration: none;
 }

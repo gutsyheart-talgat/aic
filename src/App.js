@@ -8,6 +8,7 @@ import Service1 from './components/Services/service1';
 import Service2 from './components/Services/Service2';
 import Service3 from './components/Services/service3';
 import Service4 from './components/Services/service4';
+import Vacancie from './components/Vacancie/vacancie';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Layout/>}>
         <Route index element={<About/>}></Route>
+        <Route path="vacancie" element={<Vacancie/>}></Route>
+        
         <Route path='Kyrgyzstan' element={<Kyrgyzstan/>}/>
         <Route path='Contacts' element={<Contacts/>}/>
         <Route path='Services/Service-1' element={<Service1/>}/>

@@ -1,10 +1,9 @@
 import React from "react";
 import style from './layout.module.css'
 import { NavLink,Link,Outlet } from "react-router-dom";
-import Header from "../Header/header";
 import { useTranslation } from "react-i18next";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Nav,Navbar } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 function Layout(){
     const {t,i18n}=useTranslation()
     const changeLanguage = (lang)=> {
@@ -16,7 +15,12 @@ function Layout(){
             <div className={style.container}>
                 <div>
                     <nav className={style.nav}>
-                        <NavLink className={style.link} to="/">{t("about")}</NavLink>
+                        <Nav>
+                            <NavDropdown className={`${style.link} ${style.drop}`} title={t("about")} id="basic-nav-dropdown">
+                                <div className={style.divLink}><Link className={style.serLink} to="/"> {t("onas")}</Link></div>
+                                <div className={style.divLink}><Link className={style.serLink} to="/vacancie"> {t("vacancie")}</Link></div> 
+                            </NavDropdown>
+                        </Nav>
                         <NavLink className={style.link} to="Kyrgyzstan">{t("Kyrgyzstan")}</NavLink>
                         <Nav>
                             <NavDropdown className={`${style.link} ${style.drop}`} title={t("service")} id="basic-nav-dropdown">

@@ -14,7 +14,7 @@ export default function Contacts(){
             </div>
             <div className={style.main}>
                 <p className={style.p}>{t("adress")}</p>
-                <a className={style.a} href="gmail.google.com">{t("gmail")}</a>
+                <a className={style.a} href="mailto:tdzhaylikeev@gmail.com">{t("gmail")}</a>
             </div>
         </div>
     )

@@ -2,32 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
 }
 .top{
     display: flex;
     align-items: center;
-    grid-gap: 14px;
 }
 .right{
     width: 0;
 	height: 0;
 	border-top: 1px solid transparent;
-	border-left: 245px solid #FFFFFF;
 	border-bottom: 1px solid transparent;
 }
 .left{
     width: 0;
 	height: 0;
 	border-top: 1px solid transparent;
-	border-right: 245px solid #FFFFFF;
 	border-bottom: 1px solid transparent;
 }
 .topH2{
     font-family: "Instrument Sans", sans-serif;
     font-weight: 450;
-    font-size: 56px;
-    line-height: 96.79px;
     text-align: center;
     color: #FFFFFF;
     margin: 0;
@@ -35,9 +29,74 @@
 .bottomH2{
     font-family: "Instrument Sans", sans-serif;
     font-weight: 700;
-    font-size: 160px;
-    line-height: 189.59px;
+    
     text-align: center;
     color: #CFA550;
     margin: 0;
+}
+@media(max-width:576px){
+    .header{
+        padding-top: 30px;
+    }
+    .top{
+        grid-gap: 7px;
+    }
+    .right{
+        border-left: 60px solid #FFFFFF;
+    }
+    .left{
+        border-right: 60px solid #FFFFFF;
+    }
+    .topH2{
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .bottomH2{
+        font-size: 55px;
+        line-height: 67px;
+    }
+}
+@media(min-width:576px){
+    .header{
+        padding-top: 50px;
+    }
+    .top{
+        grid-gap: 7px;
+    }
+    .right{
+        border-left: 150px solid #FFFFFF;
+    }
+    .left{
+        border-right: 150px solid #FFFFFF;
+    }
+    .topH2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .bottomH2{
+        font-size: 105px;
+        line-height: 180px;
+    }
+}
+@media(min-width:1200px){
+    .header{
+        padding-top: 80px;
+    }
+    .top{
+        grid-gap: 14px;
+    }
+    .right{
+        border-left: 245px solid #FFFFFF;
+    }
+    .left{
+        border-right: 245px solid #FFFFFF;
+    }
+    .topH2{
+        font-size: 56px;
+        line-height: 96.79px;
+    }
+    .bottomH2{
+        font-size: 160px;
+        line-height: 189.59px;
+    }
 }

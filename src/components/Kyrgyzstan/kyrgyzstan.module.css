@@ -4,6 +4,21 @@
     margin-top: 100px;
 }
 .video{
-    width: 1600px;
-    height: 960px;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:576px){
+    .divVideo{
+        margin: 20px 15px 0;
+    }
+}
+@media(min-width:576px){
+    .divVideo{
+        margin: 50px 66px 0;
+    }
+}
+@media(min-width:1200px){
+    .divVideo{
+        margin: 100px 130px 0;
+    }
 }

@@ -10,9 +10,14 @@
     padding: 0px 15px;
     margin: 0 auto;
 }
+.nav{
+    display: flex;
+    justify-content: center;
+}
 .link,.serLink{
     text-decoration: none;
     font-family: "Instrument Sans", sans-serif;
+    font-weight: 500;
 }
 .serLink{
     padding: 4px 16px;
@@ -49,8 +54,6 @@
     font-family: "Instrument Sans", sans-serif;
     color: #A7A5A6;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
     border: none;
     background: none;
 }
@@ -60,15 +63,41 @@
     border: 1px solid #A7A5A6;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 576px) {
     .nav{
-        display: flex;
-        justify-content: center;
+        height: 18px;
+        grid-gap: 15px;
+    }
+    .link,.serLink,.btns{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .serLink{
+        width: 158px !important;
+    }
+
+}
+@media (min-width: 576px) {
+    .nav{
         height: 18px;
         grid-gap: 45px;
     }
     .link,.serLink{
-        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .serLink{
+        width: 158px !important;
+    }
+
+}
+@media (min-width: 1200px) {
+    .nav{
+        
+        height: 18px;
+        grid-gap: 45px;
+    }
+    .link,.serLink{
         font-size: 16px;
         line-height: 18px;
     }

@@ -32,7 +32,6 @@ function Layout(){
                         </Nav>
                         <NavLink className={style.link} to="Contacts">{t("contact")}</NavLink>
                     </nav>
-                    <div className={style.texture}></div>
                     <div className={style.translate}>
                         <button className={style.btns} onClick={()=> changeLanguage('ru')}>RU</button>
                         <div className={style.line}/>

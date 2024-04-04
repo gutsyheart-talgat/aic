@@ -1,29 +1,74 @@
 .divVideo{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    
 }
 .video{
-    width: 1600px;
-    height: 960px;
+    width: 100%;
+    height: 100%;
 }
-.onas{
-    margin-top: 100px;
-    margin-left: 130px;
-    margin-right: 130px;
-}
+
 .h3{
     font-family: "Instrument Sans", sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 50.6px;
     color: #ffffff;
-    margin-bottom: 50px;
 }
 .p{
     font-family: "Instrument Sans", sans-serif;
     font-weight: 450;
-    font-size: 24px;
-    line-height: 30px;
+    
     color: #ffffff;
+}
+@media(max-width:576px){
+    .divVideo{
+        margin: 20px 15px 0;
+    }
+    
+    .onas{
+        margin: 20px 15px 0;
+    }
+    .h3{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+@media(min-width:576px){
+    .divVideo{
+        margin: 50px 66px 0;
+    }
+    
+    .onas{
+        margin: 50px 66px 0;
+    }
+    .h3{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .p{
+        font-size: 17px;
+        line-height: 21px;
+    }
+}
+@media(min-width:1200px){
+    .divVideo{
+        margin: 100px 130px 0;
+    }
+    .onas{
+       margin: 100px 130px 0;
+    }
+    .h3{
+        font-size: 40px;
+        line-height: 50.6px;
+        margin-bottom: 50px;
+    }
+    .p{
+        font-size: 24px;
+        line-height: 30px;
+    }
 }

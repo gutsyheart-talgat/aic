@@ -1,20 +1,10 @@
-.contacts{
-    padding-left: 130px;
-}
-.header{
-    padding-top: 100px;
-}
-
 .our{
     display: flex;
     align-items: center;
-    grid-gap: 27px;
 }
 .ourH3{
     font-family: "Instrument Sans", sans-serif;
-    font-weight: 450;
-    font-size: 63.66px;
-    line-height: 110px;
+    font-weight: 700;
     text-align: center;
     color: #ffffff;
     margin: 0;
@@ -23,20 +13,16 @@
     width: 0;
 	height: 0;
 	border-top: 1px solid transparent;
-	border-left: 290px solid #FFFFFF;
+	
 	border-bottom: 1px solid transparent;
 }
 .headcont{
     font-family: "Instrument Sans", sans-serif;
     font-weight: 700;
-    font-size: 100px;
-    line-height: 115px;
     color: #CFA550;
     margin: 0;
 }
-.main{
-    padding-top: 100px;
-}
+
 .p{
     font-family: "Instrument Sans", sans-serif;
     color: #ffffff;
@@ -51,4 +37,82 @@
     font-size: 24px;
     line-height: 30px;
     text-decoration: none;
+}
+@media(max-width:576px){
+    .contacts{
+        padding-left: 15px;
+    }
+    .header,.main{
+        padding-top: 30px;
+    }
+    .our{
+        grid-gap: 15px;
+    }
+    .ourH3{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .line{
+        border-left: 270px solid #FFFFFF;
+    }
+    .headcont{
+        font-size: 74px;
+        line-height: 93px;
+    }
+    .p,.a{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+@media(min-width:576px){
+    .contacts{
+        padding-left: 70px;
+    }
+    .header,.main{
+        padding-top: 50px;
+    }
+    .our{
+        grid-gap: 25px;
+    }
+    .ourH3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .line{
+        border-left: 330px solid #FFFFFF;
+    }
+    .headcont{
+        font-size: 100px;
+        line-height: 115px;
+    }
+    .p,.a{
+        font-size: 17px;
+        line-height: 21px;
+    }
+}
+@media(min-width:1200px){
+    .contacts{
+        padding-left: 130px;
+    }
+    .header,.main{
+        padding-top: 100px;
+    }
+    .our{
+        grid-gap: 27px;
+    }
+    .ourH3{
+        font-size: 63.66px;
+        line-height: 110px;
+    }
+    .line{
+        border-left: 500px solid #FFFFFF;
+    }
+    .headcont{
+        font-size: 150px;
+        line-height: 165px;
+    }
+    .p,.a{
+        font-size: 24px;
+        line-height: 30px;
+    }
 }

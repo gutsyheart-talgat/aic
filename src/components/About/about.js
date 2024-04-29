@@ -14,6 +14,7 @@ function About(){
                 </video>
             </div>
             <div className={style.onas}>
+                proverka
                 <h3 className={style.h3}>{t("onas")}</h3>
                 <p className={style.p}>{t("onasText")}</p>
             </div>
